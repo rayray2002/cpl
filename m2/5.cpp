@@ -17,7 +17,7 @@ struct Player {
 void show(Player p) {
 
 	cout << "Player " << p.name << " : ";
-	Card *cur = new Card;
+	Card *cur;
 	cur = p.FirstCard;
 	while (cur) {
 		cout << cur->name << " ";
@@ -95,7 +95,7 @@ void deal(Player &p) {
 	for (int i = 0; i < 9; i++) {
 		cards[i].next = &cards[i + 1];
 	}
-	cards[9].next = NULL;
+	cards[9].next = nullptr;
 }
 
 //Todo2 : draw function
@@ -115,7 +115,7 @@ void draw(Player &p1, Player &p2, int c) {
 
 	Card *index = p1.FirstCard;
 	int i = 1;
-	while (index != NULL) {
+	while (index != nullptr) {
 //        cout << index->name;
 		if (index->value == card->value) {
 //            cout << "find!!!" << i << endl;
@@ -126,9 +126,7 @@ void draw(Player &p1, Player &p2, int c) {
 				for (int j = 0; j < i - 2; j++) {
 					rm = rm->next;
 				}
-				Card *temp = rm->next;
 				rm->next = rm->next->next;
-				rm = temp;
 			}
 			return;
 		}
@@ -144,7 +142,7 @@ void draw(Player &p1, Player &p2, int c) {
 		card->next = index;
 		return;
 	}
-	while (index->next != NULL) {
+	while (index->next != nullptr) {
 //        cout << index->next->value<< card->value;
 		if (index->next->value > card->value) {
 //            cout << "app" << i << endl;
@@ -159,14 +157,14 @@ void draw(Player &p1, Player &p2, int c) {
 	}
 //    cout << index->name;
 	index->next = card;
-	card->next = NULL;
+	card->next = nullptr;
 }
 //TEMPLATE END
 
 //APPEND BEGIN
 int main() {
 
-	Player *players = new Player[4];
+	auto *players = new Player[4];
 	for (int i = 0; i < 4; i++) {
 		deal(players[i]);
 	}

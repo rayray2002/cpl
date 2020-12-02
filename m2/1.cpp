@@ -14,7 +14,7 @@ struct dyad {
 	double y_end;
 };
 
-dyad *B = NULL, *A = NULL;
+dyad *B = nullptr, *A = nullptr;
 
 void init() {
 	// Allocate new memory space
@@ -39,9 +39,8 @@ void calculate(dyad *r) {
 void clearALL() {
 	// TODO 2.
 	// delete the memory space and set the pointer to the correct value
-	if (A != NULL) delete A;
-	if (B != NULL) delete B;
-	return;
+	delete A;
+	delete B;
 }
 //TEMPLATE END
 
@@ -50,7 +49,6 @@ void output(dyad *r) {
 	cout << "dyad " << r->label << ":" << endl;
 	cout << "Starting position: (" << r->x_start << ", " << r->y_start << ')' << endl;
 	cout << "Ending position: (" << r->x_end << ", " << r->y_end << ')' << endl;
-	return;
 }
 
 int main() {

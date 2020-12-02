@@ -9,12 +9,12 @@ char *my_strtok(char *str, char delim) {
 //TEMPLATE BEGIN
 	static int index = -1;
 	static char *string = str;
-	if (str != NULL) {
+	if (str != nullptr) {
 		string = str;
 		index = -1;
 	}
 	int i;
-	if (string[index + 1] == 0) return NULL;
+	if (string[index + 1] == 0) return nullptr;
 	for (i = index + 1; string[i] != 0; ++i) {
 		if (string[i] == delim) break;
 	}
@@ -50,9 +50,9 @@ int main() {
 	token = my_strtok(str1, delim1);
 
 	/* walk through other tokens */
-	while (token != NULL) {
+	while (token != nullptr) {
 		cout << token << endl;
-		token = my_strtok(NULL, delim1);
+		token = my_strtok(nullptr, delim1);
 	}
 
 	//---------- second round! ----------
@@ -62,9 +62,9 @@ int main() {
 	cin >> delim2;
 
 	token = my_strtok(str2, delim2);
-	while (token != NULL) {
+	while (token != nullptr) {
 		cout << token << endl;
-		token = my_strtok(NULL, delim2);
+		token = my_strtok(nullptr, delim2);
 	}
 
 	return 0;

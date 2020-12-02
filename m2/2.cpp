@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <cmath>
 
 using namespace std;
 
@@ -9,7 +8,7 @@ double det2(double a, double b, double c, double d) {
 }
 
 int main() {
-	double **A = new double *[3];
+	auto **A = new double *[3];
 	for (int i = 0; i < 3; i++) {
 		A[i] = new double[3];
 		cin >> A[i][0] >> A[i][1] >> A[i][2];
@@ -21,7 +20,7 @@ int main() {
 	if (detA == 0) {
 		cout << "No answer!\n";
 	} else {
-		double **Ai = new double *[3];
+		auto **Ai = new double *[3];
 		for (int i = 0; i < 3; i++) {
 			Ai[i] = new double[3];
 		}

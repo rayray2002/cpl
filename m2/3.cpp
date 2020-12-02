@@ -13,7 +13,7 @@ struct Point {
 };
 
 Point *read_points(int N) {
-	Point *arr = new Point[N];
+	auto *arr = new Point[N];
 	for (int i = 0; i < N; i++) {
 		cin >> arr[i].name >> arr[i].x >> arr[i].y >> arr[i].z;
 	}
@@ -36,7 +36,7 @@ double det2(double a, double b, double c, double d) {
 }
 
 double space(Point a, Point b, Point c, Point d) {
-	;
+
 	double A[3][3], V;
 	A[0][0] = b.x - a.x;
 	A[1][0] = c.x - a.x;
