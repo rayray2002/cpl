@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ray/Desktop/NTU/計算機程式/hw01/IEEE 754 半精度浮點數 .cpp
+iostream
+-
+iomanip
+-
+

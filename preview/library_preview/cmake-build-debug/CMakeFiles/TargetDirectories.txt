@@ -1,0 +1,5 @@
+/Users/ray/Desktop/NTU/計算機程式/preview/library_preview/cmake-build-debug/CMakeFiles/p15.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/library_preview/cmake-build-debug/CMakeFiles/p12.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/library_preview/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/library_preview/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/library_preview/cmake-build-debug/CMakeFiles/p6.dir

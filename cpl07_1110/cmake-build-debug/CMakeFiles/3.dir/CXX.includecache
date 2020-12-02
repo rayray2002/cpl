@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/3_Closest Prime Number.cpp
+iostream
+-
+math.h
+-
+

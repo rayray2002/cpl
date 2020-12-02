@@ -1,0 +1,8 @@
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/4.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/3.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/2.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/1.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/adv2_Quadrat.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl07_1110/cmake-build-debug/CMakeFiles/adv1.dir

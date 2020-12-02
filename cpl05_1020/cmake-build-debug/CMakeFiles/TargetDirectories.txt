@@ -1,0 +1,7 @@
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/cpl05_1020.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/4.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/3.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/2.dir
+/Users/ray/Desktop/NTU/計算機程式/cpl05_1020/cmake-build-debug/CMakeFiles/1.dir

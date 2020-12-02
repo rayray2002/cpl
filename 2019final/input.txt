@@ -1,0 +1,14 @@
+2
+Club 5
+Spade 5
+Club K
+Diamond A
+Heart J
+Show
+
+Diamond 5
+Spade 5
+Spade 7
+Club 5
+Heart 5
+Rank

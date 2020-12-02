@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hw01"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maze">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/maze" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 maze"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maze/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/maze" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 maze/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="temp">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/temp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 temp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="temp/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/temp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 temp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5_test">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/5_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5_test/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/5_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bintodec">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/bintodec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 bintodec"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bintodec/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/bintodec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 bintodec/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="change">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/change" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 change"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="change/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/change" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 change/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2/fast">
+				<Option output="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/IEEE 754 半精度浮點數 .cpp">
+			<Option target="5"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/IEEE 754 半精度浮點數2.cpp">
+			<Option target="5_test"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/bintodec.cpp">
+			<Option target="bintodec"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/temp.cpp">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/圈圈叉叉.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/找錢.cpp">
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/日期轉換 .cpp">
+			<Option target="1"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/有點重疊的圖片.cpp">
+			<Option target="6"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/矩陣投影 .cpp">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/簡易函數繪圖器.cpp">
+			<Option target="4"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/走迷宮.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/Users/ray/Desktop/NTU/計算機程式/hw01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/Users/ray/Desktop/NTU/計算機程式/0922/page6-7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/0922/page6-7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/0922/page6-7/cmake-build-debug/CMakeFiles/page6_7.dir

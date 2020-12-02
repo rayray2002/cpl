@@ -1,0 +1,13 @@
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p25.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p42.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p41.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p39.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p38.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p57.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p46-47.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p44.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p29.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p10_modify.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/function_preview/cmake-build-debug/CMakeFiles/p10.dir

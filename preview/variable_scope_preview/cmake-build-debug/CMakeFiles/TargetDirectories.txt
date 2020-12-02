@@ -1,0 +1,6 @@
+/Users/ray/Desktop/NTU/計算機程式/preview/variable_scope_preview/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/variable_scope_preview/cmake-build-debug/CMakeFiles/p65.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/variable_scope_preview/cmake-build-debug/CMakeFiles/p60.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/variable_scope_preview/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/variable_scope_preview/cmake-build-debug/CMakeFiles/p57.dir
+/Users/ray/Desktop/NTU/計算機程式/preview/variable_scope_preview/cmake-build-debug/CMakeFiles/variable_scope_preview.dir

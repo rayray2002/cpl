@@ -1,0 +1,13 @@
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/3.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/maze.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/temp.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/5_test.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/6.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/1.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/5.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/4.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/bintodec.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/change.dir
+/Users/ray/Desktop/NTU/計算機程式/hw01/cmake-build-debug/CMakeFiles/2.dir

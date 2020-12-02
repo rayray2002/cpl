@@ -1,0 +1,11 @@
+7
+apple
+banana
+cat
+dog
+egg
+frog
+GG
+0 1
+4 3
+2 3
