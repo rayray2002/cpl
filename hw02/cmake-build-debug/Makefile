@@ -131,19 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named temp2
-
-# Build rule for target.
-temp2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 temp2
-.PHONY : temp2
-
-# fast build rule for target.
-temp2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/build
-.PHONY : temp2/fast
-
-#=============================================================================
 # Target rules for targets named 6
 
 # Build rule for target.
@@ -181,6 +168,19 @@ temp2/fast:
 4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/build
 .PHONY : 4/fast
+
+#=============================================================================
+# Target rules for targets named jimmy
+
+# Build rule for target.
+jimmy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jimmy
+.PHONY : jimmy
+
+# fast build rule for target.
+jimmy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/build
+.PHONY : jimmy/fast
 
 #=============================================================================
 # Target rules for targets named 3
@@ -221,32 +221,32 @@ temp2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
 
-temp2.o: temp2.cpp.o
+jimmy_hanoi.o: jimmy_hanoi.c.o
 
-.PHONY : temp2.o
+.PHONY : jimmy_hanoi.o
 
 # target to build an object file
-temp2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/temp2.cpp.o
-.PHONY : temp2.cpp.o
+jimmy_hanoi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/jimmy_hanoi.c.o
+.PHONY : jimmy_hanoi.c.o
 
-temp2.i: temp2.cpp.i
+jimmy_hanoi.i: jimmy_hanoi.c.i
 
-.PHONY : temp2.i
+.PHONY : jimmy_hanoi.i
 
 # target to preprocess a source file
-temp2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/temp2.cpp.i
-.PHONY : temp2.cpp.i
+jimmy_hanoi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/jimmy_hanoi.c.i
+.PHONY : jimmy_hanoi.c.i
 
-temp2.s: temp2.cpp.s
+jimmy_hanoi.s: jimmy_hanoi.c.s
 
-.PHONY : temp2.s
+.PHONY : jimmy_hanoi.s
 
 # target to generate assembly for a file
-temp2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/temp2.cpp.s
-.PHONY : temp2.cpp.s
+jimmy_hanoi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/jimmy_hanoi.c.s
+.PHONY : jimmy_hanoi.c.s
 
 三則運算.o: 三則運算.cpp.o
 
@@ -424,10 +424,10 @@ help:
 	@echo "... 4"
 	@echo "... 5"
 	@echo "... 6"
-	@echo "... temp2"
-	@echo "... temp2.o"
-	@echo "... temp2.i"
-	@echo "... temp2.s"
+	@echo "... jimmy"
+	@echo "... jimmy_hanoi.o"
+	@echo "... jimmy_hanoi.i"
+	@echo "... jimmy_hanoi.s"
 	@echo "... 三則運算.o"
 	@echo "... 三則運算.i"
 	@echo "... 三則運算.s"

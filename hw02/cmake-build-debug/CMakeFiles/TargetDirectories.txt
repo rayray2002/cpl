@@ -1,8 +1,8 @@
-/Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/temp2.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/6.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/5.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/4.dir
+/Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/jimmy.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/3.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles/2.dir

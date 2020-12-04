@@ -73,10 +73,10 @@ CMAKE_BINARY_DIR = /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/temp2.dir/all
 all: CMakeFiles/6.dir/all
 all: CMakeFiles/5.dir/all
 all: CMakeFiles/4.dir/all
+all: CMakeFiles/jimmy.dir/all
 all: CMakeFiles/3.dir/all
 all: CMakeFiles/2.dir/all
 all: CMakeFiles/1.dir/all
@@ -89,42 +89,15 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/temp2.dir/clean
 clean: CMakeFiles/6.dir/clean
 clean: CMakeFiles/5.dir/clean
 clean: CMakeFiles/4.dir/clean
+clean: CMakeFiles/jimmy.dir/clean
 clean: CMakeFiles/3.dir/clean
 clean: CMakeFiles/2.dir/clean
 clean: CMakeFiles/1.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/temp2.dir
-
-# All Build rule for target.
-CMakeFiles/temp2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target temp2"
-.PHONY : CMakeFiles/temp2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/temp2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/temp2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/temp2.dir/rule
-
-# Convenience name for target.
-temp2: CMakeFiles/temp2.dir/rule
-
-.PHONY : temp2
-
-# clean rule for target.
-CMakeFiles/temp2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp2.dir/build.make CMakeFiles/temp2.dir/clean
-.PHONY : CMakeFiles/temp2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/6.dir
@@ -206,6 +179,33 @@ CMakeFiles/4.dir/rule: cmake_check_build_system
 CMakeFiles/4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/clean
 .PHONY : CMakeFiles/4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/jimmy.dir
+
+# All Build rule for target.
+CMakeFiles/jimmy.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target jimmy"
+.PHONY : CMakeFiles/jimmy.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/jimmy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/jimmy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/hw02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/jimmy.dir/rule
+
+# Convenience name for target.
+jimmy: CMakeFiles/jimmy.dir/rule
+
+.PHONY : jimmy
+
+# clean rule for target.
+CMakeFiles/jimmy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jimmy.dir/build.make CMakeFiles/jimmy.dir/clean
+.PHONY : CMakeFiles/jimmy.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/3.dir
