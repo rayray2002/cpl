@@ -182,6 +182,33 @@ p7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p7.dir/build.make CMakeFiles/p7.dir/build
 .PHONY : p7/fast
 
+SDL_bgi.o: SDL_bgi.cpp.o
+
+.PHONY : SDL_bgi.o
+
+# target to build an object file
+SDL_bgi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/SDL_bgi.cpp.o
+.PHONY : SDL_bgi.cpp.o
+
+SDL_bgi.i: SDL_bgi.cpp.i
+
+.PHONY : SDL_bgi.i
+
+# target to preprocess a source file
+SDL_bgi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/SDL_bgi.cpp.i
+.PHONY : SDL_bgi.cpp.i
+
+SDL_bgi.s: SDL_bgi.cpp.s
+
+.PHONY : SDL_bgi.s
+
+# target to generate assembly for a file
+SDL_bgi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/SDL_bgi.cpp.s
+.PHONY : SDL_bgi.cpp.s
+
 p10-11.o: p10-11.cpp.o
 
 .PHONY : p10-11.o
@@ -302,6 +329,9 @@ help:
 	@echo "... p12"
 	@echo "... p21"
 	@echo "... p7"
+	@echo "... SDL_bgi.o"
+	@echo "... SDL_bgi.i"
+	@echo "... SDL_bgi.s"
 	@echo "... p10-11.o"
 	@echo "... p10-11.i"
 	@echo "... p10-11.s"

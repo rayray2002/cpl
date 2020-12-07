@@ -25,8 +25,8 @@ freely, subject to the following restrictions:
 
 
 // SDL2 stuff
-#include <SDL.h>
-#include <SDL_keycode.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_keycode.h>
 
 // for fprintf()
 #include <stdio.h>

@@ -127,12 +127,12 @@ CMakeFiles/p12.dir/clean:
 CMakeFiles/p21.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target p21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target p21"
 .PHONY : CMakeFiles/p21.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/p21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/p21.dir/rule
@@ -181,7 +181,7 @@ CMakeFiles/p10-11.dir/clean:
 CMakeFiles/p7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p7.dir/build.make CMakeFiles/p7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p7.dir/build.make CMakeFiles/p7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target p7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target p7"
 .PHONY : CMakeFiles/p7.dir/all
 
 # Build rule for subdir invocation for target.
