@@ -34,6 +34,8 @@ int main(int argc, char *argv[]) {
 	e.initialize(100, 100, 50, 30);
 	cout << "The area is " << e.area() << endl;
 
+//	circle(100,100,3);
+
 	elipso *p = &e;
 	cout << "The center is at (" << p->x << ", " << p->y << ")" << endl;
 	getch();

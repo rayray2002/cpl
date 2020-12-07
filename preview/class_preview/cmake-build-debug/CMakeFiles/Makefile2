@@ -73,8 +73,12 @@ CMAKE_BINARY_DIR = /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/p12.dir/all
+all: CMakeFiles/p34.dir/all
+all: CMakeFiles/p32.dir/all
+all: CMakeFiles/p28.dir/all
+all: CMakeFiles/p24-26.dir/all
 all: CMakeFiles/p21.dir/all
+all: CMakeFiles/p12.dir/all
 all: CMakeFiles/p10-11.dir/all
 all: CMakeFiles/p7.dir/all
 
@@ -86,39 +90,124 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/p12.dir/clean
+clean: CMakeFiles/p34.dir/clean
+clean: CMakeFiles/p32.dir/clean
+clean: CMakeFiles/p28.dir/clean
+clean: CMakeFiles/p24-26.dir/clean
 clean: CMakeFiles/p21.dir/clean
+clean: CMakeFiles/p12.dir/clean
 clean: CMakeFiles/p10-11.dir/clean
 clean: CMakeFiles/p7.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/p12.dir
+# Target rules for target CMakeFiles/p34.dir
 
 # All Build rule for target.
-CMakeFiles/p12.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target p12"
-.PHONY : CMakeFiles/p12.dir/all
+CMakeFiles/p34.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=17,18,19 "Built target p34"
+.PHONY : CMakeFiles/p34.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/p12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p12.dir/all
+CMakeFiles/p34.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p34.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/p12.dir/rule
+.PHONY : CMakeFiles/p34.dir/rule
 
 # Convenience name for target.
-p12: CMakeFiles/p12.dir/rule
+p34: CMakeFiles/p34.dir/rule
 
-.PHONY : p12
+.PHONY : p34
 
 # clean rule for target.
-CMakeFiles/p12.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/clean
-.PHONY : CMakeFiles/p12.dir/clean
+CMakeFiles/p34.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/clean
+.PHONY : CMakeFiles/p34.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p32.dir
+
+# All Build rule for target.
+CMakeFiles/p32.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target p32"
+.PHONY : CMakeFiles/p32.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p32.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p32.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/p32.dir/rule
+
+# Convenience name for target.
+p32: CMakeFiles/p32.dir/rule
+
+.PHONY : p32
+
+# clean rule for target.
+CMakeFiles/p32.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/clean
+.PHONY : CMakeFiles/p32.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p28.dir
+
+# All Build rule for target.
+CMakeFiles/p28.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target p28"
+.PHONY : CMakeFiles/p28.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p28.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p28.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/p28.dir/rule
+
+# Convenience name for target.
+p28: CMakeFiles/p28.dir/rule
+
+.PHONY : p28
+
+# clean rule for target.
+CMakeFiles/p28.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/clean
+.PHONY : CMakeFiles/p28.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p24-26.dir
+
+# All Build rule for target.
+CMakeFiles/p24-26.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=8,9,10 "Built target p24-26"
+.PHONY : CMakeFiles/p24-26.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p24-26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p24-26.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/p24-26.dir/rule
+
+# Convenience name for target.
+p24-26: CMakeFiles/p24-26.dir/rule
+
+.PHONY : p24-26
+
+# clean rule for target.
+CMakeFiles/p24-26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/clean
+.PHONY : CMakeFiles/p24-26.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/p21.dir
@@ -146,6 +235,33 @@ p21: CMakeFiles/p21.dir/rule
 CMakeFiles/p21.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/clean
 .PHONY : CMakeFiles/p21.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/p12.dir
+
+# All Build rule for target.
+CMakeFiles/p12.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target p12"
+.PHONY : CMakeFiles/p12.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/p12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/p12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/p12.dir/rule
+
+# Convenience name for target.
+p12: CMakeFiles/p12.dir/rule
+
+.PHONY : p12
+
+# clean rule for target.
+CMakeFiles/p12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/clean
+.PHONY : CMakeFiles/p12.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/p10-11.dir
@@ -181,7 +297,7 @@ CMakeFiles/p10-11.dir/clean:
 CMakeFiles/p7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p7.dir/build.make CMakeFiles/p7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p7.dir/build.make CMakeFiles/p7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target p7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target p7"
 .PHONY : CMakeFiles/p7.dir/all
 
 # Build rule for subdir invocation for target.

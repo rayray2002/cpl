@@ -131,17 +131,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named p12
+# Target rules for targets named p34
 
 # Build rule for target.
-p12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p12
-.PHONY : p12
+p34: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p34
+.PHONY : p34
 
 # fast build rule for target.
-p12/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
-.PHONY : p12/fast
+p34/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/build
+.PHONY : p34/fast
+
+#=============================================================================
+# Target rules for targets named p32
+
+# Build rule for target.
+p32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p32
+.PHONY : p32
+
+# fast build rule for target.
+p32/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/build
+.PHONY : p32/fast
+
+#=============================================================================
+# Target rules for targets named p28
+
+# Build rule for target.
+p28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p28
+.PHONY : p28
+
+# fast build rule for target.
+p28/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/build
+.PHONY : p28/fast
+
+#=============================================================================
+# Target rules for targets named p24-26
+
+# Build rule for target.
+p24-26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p24-26
+.PHONY : p24-26
+
+# fast build rule for target.
+p24-26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/build
+.PHONY : p24-26/fast
 
 #=============================================================================
 # Target rules for targets named p21
@@ -155,6 +194,19 @@ p21: cmake_check_build_system
 p21/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/build
 .PHONY : p21/fast
+
+#=============================================================================
+# Target rules for targets named p12
+
+# Build rule for target.
+p12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p12
+.PHONY : p12
+
+# fast build rule for target.
+p12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
+.PHONY : p12/fast
 
 #=============================================================================
 # Target rules for targets named p10-11
@@ -188,6 +240,10 @@ SDL_bgi.o: SDL_bgi.cpp.o
 
 # target to build an object file
 SDL_bgi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/SDL_bgi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/SDL_bgi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/SDL_bgi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/SDL_bgi.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/SDL_bgi.cpp.o
 .PHONY : SDL_bgi.cpp.o
 
@@ -197,6 +253,10 @@ SDL_bgi.i: SDL_bgi.cpp.i
 
 # target to preprocess a source file
 SDL_bgi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/SDL_bgi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/SDL_bgi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/SDL_bgi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/SDL_bgi.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/SDL_bgi.cpp.i
 .PHONY : SDL_bgi.cpp.i
 
@@ -206,6 +266,10 @@ SDL_bgi.s: SDL_bgi.cpp.s
 
 # target to generate assembly for a file
 SDL_bgi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/SDL_bgi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/SDL_bgi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/SDL_bgi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/SDL_bgi.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/SDL_bgi.cpp.s
 .PHONY : SDL_bgi.cpp.s
 
@@ -290,6 +354,114 @@ p21.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/p21.cpp.s
 .PHONY : p21.cpp.s
 
+p24-26.o: p24-26.cpp.o
+
+.PHONY : p24-26.o
+
+# target to build an object file
+p24-26.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/p24-26.cpp.o
+.PHONY : p24-26.cpp.o
+
+p24-26.i: p24-26.cpp.i
+
+.PHONY : p24-26.i
+
+# target to preprocess a source file
+p24-26.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/p24-26.cpp.i
+.PHONY : p24-26.cpp.i
+
+p24-26.s: p24-26.cpp.s
+
+.PHONY : p24-26.s
+
+# target to generate assembly for a file
+p24-26.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/p24-26.cpp.s
+.PHONY : p24-26.cpp.s
+
+p28.o: p28.cpp.o
+
+.PHONY : p28.o
+
+# target to build an object file
+p28.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/p28.cpp.o
+.PHONY : p28.cpp.o
+
+p28.i: p28.cpp.i
+
+.PHONY : p28.i
+
+# target to preprocess a source file
+p28.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/p28.cpp.i
+.PHONY : p28.cpp.i
+
+p28.s: p28.cpp.s
+
+.PHONY : p28.s
+
+# target to generate assembly for a file
+p28.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/p28.cpp.s
+.PHONY : p28.cpp.s
+
+p32.o: p32.cpp.o
+
+.PHONY : p32.o
+
+# target to build an object file
+p32.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/p32.cpp.o
+.PHONY : p32.cpp.o
+
+p32.i: p32.cpp.i
+
+.PHONY : p32.i
+
+# target to preprocess a source file
+p32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/p32.cpp.i
+.PHONY : p32.cpp.i
+
+p32.s: p32.cpp.s
+
+.PHONY : p32.s
+
+# target to generate assembly for a file
+p32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/p32.cpp.s
+.PHONY : p32.cpp.s
+
+p34.o: p34.cpp.o
+
+.PHONY : p34.o
+
+# target to build an object file
+p34.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/p34.cpp.o
+.PHONY : p34.cpp.o
+
+p34.i: p34.cpp.i
+
+.PHONY : p34.i
+
+# target to preprocess a source file
+p34.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/p34.cpp.i
+.PHONY : p34.cpp.i
+
+p34.s: p34.cpp.s
+
+.PHONY : p34.s
+
+# target to generate assembly for a file
+p34.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/p34.cpp.s
+.PHONY : p34.cpp.s
+
 p7.o: p7.cpp.o
 
 .PHONY : p7.o
@@ -328,6 +500,10 @@ help:
 	@echo "... p10-11"
 	@echo "... p12"
 	@echo "... p21"
+	@echo "... p24-26"
+	@echo "... p28"
+	@echo "... p32"
+	@echo "... p34"
 	@echo "... p7"
 	@echo "... SDL_bgi.o"
 	@echo "... SDL_bgi.i"
@@ -341,6 +517,18 @@ help:
 	@echo "... p21.o"
 	@echo "... p21.i"
 	@echo "... p21.s"
+	@echo "... p24-26.o"
+	@echo "... p24-26.i"
+	@echo "... p24-26.s"
+	@echo "... p28.o"
+	@echo "... p28.i"
+	@echo "... p28.s"
+	@echo "... p32.o"
+	@echo "... p32.i"
+	@echo "... p32.s"
+	@echo "... p34.o"
+	@echo "... p34.i"
+	@echo "... p34.s"
 	@echo "... p7.o"
 	@echo "... p7.i"
 	@echo "... p7.s"
