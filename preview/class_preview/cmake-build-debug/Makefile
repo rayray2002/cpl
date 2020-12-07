@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ray/Desktop/NTU/計算機程式/class_preview
+CMAKE_SOURCE_DIR = /Users/ray/Desktop/NTU/計算機程式/preview/class_preview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ray/Desktop/NTU/計算機程式/class_preview/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/class_preview/cmake-build-debug/CMakeFiles /Users/ray/Desktop/NTU/計算機程式/class_preview/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/class_preview/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ray/Desktop/NTU/計算機程式/preview/class_preview/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,19 @@ p12: cmake_check_build_system
 p12/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
 .PHONY : p12/fast
+
+#=============================================================================
+# Target rules for targets named p21
+
+# Build rule for target.
+p21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p21
+.PHONY : p21
+
+# fast build rule for target.
+p21/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/build
+.PHONY : p21/fast
 
 #=============================================================================
 # Target rules for targets named p10-11
@@ -223,6 +236,33 @@ p12.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/p12.cpp.s
 .PHONY : p12.cpp.s
 
+p21.o: p21.cpp.o
+
+.PHONY : p21.o
+
+# target to build an object file
+p21.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/p21.cpp.o
+.PHONY : p21.cpp.o
+
+p21.i: p21.cpp.i
+
+.PHONY : p21.i
+
+# target to preprocess a source file
+p21.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/p21.cpp.i
+.PHONY : p21.cpp.i
+
+p21.s: p21.cpp.s
+
+.PHONY : p21.s
+
+# target to generate assembly for a file
+p21.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p21.dir/build.make CMakeFiles/p21.dir/p21.cpp.s
+.PHONY : p21.cpp.s
+
 p7.o: p7.cpp.o
 
 .PHONY : p7.o
@@ -260,6 +300,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... p10-11"
 	@echo "... p12"
+	@echo "... p21"
 	@echo "... p7"
 	@echo "... p10-11.o"
 	@echo "... p10-11.i"
@@ -267,6 +308,9 @@ help:
 	@echo "... p12.o"
 	@echo "... p12.i"
 	@echo "... p12.s"
+	@echo "... p21.o"
+	@echo "... p21.i"
+	@echo "... p21.s"
 	@echo "... p7.o"
 	@echo "... p7.i"
 	@echo "... p7.s"
