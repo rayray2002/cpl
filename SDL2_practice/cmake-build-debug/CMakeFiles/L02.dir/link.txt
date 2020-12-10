@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/L02.dir/L02.cpp.o  -o L02 -F/Library/Frameworks  -Wl,-rpath,/Library/Frameworks -framework SDL2 -framework Cocoa -framework SDL2_image -framework SDL2_ttf -framework SDL2_mixer 
