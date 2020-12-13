@@ -13,7 +13,6 @@ enum color_code {
 //TEMPLATE BEGIN
 class Resistor {
 private:
-	bool valid;
 	color_code code[4] = {None, None, None, None};
 public:
 	bool setValue(color_code a, color_code b, color_code c, color_code d) {
@@ -77,7 +76,6 @@ public:
 	}
 
 	void display_value() {
-		// TODO
 		if (code[2] == Gold) {
 			cout << code[0] << '.' << code[1];
 		} else if (code[2] == Silver) {
@@ -111,6 +109,8 @@ public:
 				break;
 			case Silver:
 				cout << "10%";
+				break;
+			default:
 				break;
 		}
 		cout << endl;

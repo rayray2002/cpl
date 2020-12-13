@@ -1,6 +1,5 @@
 //PREPEND BEGIN
 #include <iostream>
-#include <iomanip>
 #include <string>
 
 using namespace std;
@@ -10,9 +9,9 @@ using namespace std;
 class Polynomial {
 public:
 	// Add any member function if you need.
-	Polynomial() {}
+	Polynomial() = default;
 
-	Polynomial(int coefficient[], int n) {
+	Polynomial(const int coefficient[], int n) {
 		deg = n;
 		coefficients = new int[n];
 		for (int i = 0; i < n; i++) {
@@ -25,7 +24,7 @@ public:
 			if (coefficients[i]) cout << showpos << coefficients[i] << "x^" << noshowpos << i;
 		}
 		if (coefficients[1]) cout << showpos << coefficients[1] << "x";
-		if (coefficients[0])cout << showpos << coefficients[0];
+		if (coefficients[0]) cout << showpos << coefficients[0];
 		cout << endl;
 	}
 
@@ -74,7 +73,7 @@ public:
 
 private:
 	// Add any member variable if you need.
-	int *coefficients, deg;
+	int *coefficients{}, deg{};
 
 };
 //TEMPLATE END
@@ -85,7 +84,7 @@ void test() {
 	int cmds, cmd, pid, pid2;
 	int v[4096];
 	cin >> n;
-	Polynomial *p = new Polynomial[n];
+	auto *p = new Polynomial[n];
 	for (int i = 0; i < n; i++) {
 		cin >> m;
 		for (int j = 0; j < m; j++)

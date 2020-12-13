@@ -131,6 +131,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named p56
+
+# Build rule for target.
+p56: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p56
+.PHONY : p56
+
+# fast build rule for target.
+p56/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/build
+.PHONY : p56/fast
+
+#=============================================================================
+# Target rules for targets named p53
+
+# Build rule for target.
+p53: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p53
+.PHONY : p53
+
+# fast build rule for target.
+p53/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/build
+.PHONY : p53/fast
+
+#=============================================================================
+# Target rules for targets named p48
+
+# Build rule for target.
+p48: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p48
+.PHONY : p48
+
+# fast build rule for target.
+p48/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p48.dir/build.make CMakeFiles/p48.dir/build
+.PHONY : p48/fast
+
+#=============================================================================
+# Target rules for targets named p12
+
+# Build rule for target.
+p12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p12
+.PHONY : p12
+
+# fast build rule for target.
+p12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
+.PHONY : p12/fast
+
+#=============================================================================
+# Target rules for targets named p42
+
+# Build rule for target.
+p42: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p42
+.PHONY : p42
+
+# fast build rule for target.
+p42/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/build
+.PHONY : p42/fast
+
+#=============================================================================
 # Target rules for targets named p34
 
 # Build rule for target.
@@ -142,6 +207,45 @@ p34: cmake_check_build_system
 p34/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/build
 .PHONY : p34/fast
+
+#=============================================================================
+# Target rules for targets named p38
+
+# Build rule for target.
+p38: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p38
+.PHONY : p38
+
+# fast build rule for target.
+p38/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p38.dir/build.make CMakeFiles/p38.dir/build
+.PHONY : p38/fast
+
+#=============================================================================
+# Target rules for targets named p40
+
+# Build rule for target.
+p40: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p40
+.PHONY : p40
+
+# fast build rule for target.
+p40/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/build
+.PHONY : p40/fast
+
+#=============================================================================
+# Target rules for targets named p44
+
+# Build rule for target.
+p44: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p44
+.PHONY : p44
+
+# fast build rule for target.
+p44/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p44.dir/build.make CMakeFiles/p44.dir/build
+.PHONY : p44/fast
 
 #=============================================================================
 # Target rules for targets named p32
@@ -196,19 +300,6 @@ p21/fast:
 .PHONY : p21/fast
 
 #=============================================================================
-# Target rules for targets named p12
-
-# Build rule for target.
-p12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p12
-.PHONY : p12
-
-# fast build rule for target.
-p12/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p12.dir/build.make CMakeFiles/p12.dir/build
-.PHONY : p12/fast
-
-#=============================================================================
 # Target rules for targets named p10-11
 
 # Build rule for target.
@@ -240,7 +331,11 @@ SDL_bgi.o: SDL_bgi.cpp.o
 
 # target to build an object file
 SDL_bgi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/SDL_bgi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/SDL_bgi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/SDL_bgi.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/SDL_bgi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/SDL_bgi.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/SDL_bgi.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/SDL_bgi.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/SDL_bgi.cpp.o
@@ -253,7 +348,11 @@ SDL_bgi.i: SDL_bgi.cpp.i
 
 # target to preprocess a source file
 SDL_bgi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/SDL_bgi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/SDL_bgi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/SDL_bgi.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/SDL_bgi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/SDL_bgi.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/SDL_bgi.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/SDL_bgi.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/SDL_bgi.cpp.i
@@ -266,7 +365,11 @@ SDL_bgi.s: SDL_bgi.cpp.s
 
 # target to generate assembly for a file
 SDL_bgi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/SDL_bgi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/SDL_bgi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/SDL_bgi.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/SDL_bgi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/SDL_bgi.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p32.dir/build.make CMakeFiles/p32.dir/SDL_bgi.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p28.dir/build.make CMakeFiles/p28.dir/SDL_bgi.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p24-26.dir/build.make CMakeFiles/p24-26.dir/SDL_bgi.cpp.s
@@ -462,6 +565,195 @@ p34.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p34.dir/build.make CMakeFiles/p34.dir/p34.cpp.s
 .PHONY : p34.cpp.s
 
+p38.o: p38.cpp.o
+
+.PHONY : p38.o
+
+# target to build an object file
+p38.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p38.dir/build.make CMakeFiles/p38.dir/p38.cpp.o
+.PHONY : p38.cpp.o
+
+p38.i: p38.cpp.i
+
+.PHONY : p38.i
+
+# target to preprocess a source file
+p38.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p38.dir/build.make CMakeFiles/p38.dir/p38.cpp.i
+.PHONY : p38.cpp.i
+
+p38.s: p38.cpp.s
+
+.PHONY : p38.s
+
+# target to generate assembly for a file
+p38.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p38.dir/build.make CMakeFiles/p38.dir/p38.cpp.s
+.PHONY : p38.cpp.s
+
+p40.o: p40.cpp.o
+
+.PHONY : p40.o
+
+# target to build an object file
+p40.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/p40.cpp.o
+.PHONY : p40.cpp.o
+
+p40.i: p40.cpp.i
+
+.PHONY : p40.i
+
+# target to preprocess a source file
+p40.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/p40.cpp.i
+.PHONY : p40.cpp.i
+
+p40.s: p40.cpp.s
+
+.PHONY : p40.s
+
+# target to generate assembly for a file
+p40.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p40.dir/build.make CMakeFiles/p40.dir/p40.cpp.s
+.PHONY : p40.cpp.s
+
+p42.o: p42.cpp.o
+
+.PHONY : p42.o
+
+# target to build an object file
+p42.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/p42.cpp.o
+.PHONY : p42.cpp.o
+
+p42.i: p42.cpp.i
+
+.PHONY : p42.i
+
+# target to preprocess a source file
+p42.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/p42.cpp.i
+.PHONY : p42.cpp.i
+
+p42.s: p42.cpp.s
+
+.PHONY : p42.s
+
+# target to generate assembly for a file
+p42.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p42.dir/build.make CMakeFiles/p42.dir/p42.cpp.s
+.PHONY : p42.cpp.s
+
+p44.o: p44.cpp.o
+
+.PHONY : p44.o
+
+# target to build an object file
+p44.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p44.dir/build.make CMakeFiles/p44.dir/p44.cpp.o
+.PHONY : p44.cpp.o
+
+p44.i: p44.cpp.i
+
+.PHONY : p44.i
+
+# target to preprocess a source file
+p44.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p44.dir/build.make CMakeFiles/p44.dir/p44.cpp.i
+.PHONY : p44.cpp.i
+
+p44.s: p44.cpp.s
+
+.PHONY : p44.s
+
+# target to generate assembly for a file
+p44.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p44.dir/build.make CMakeFiles/p44.dir/p44.cpp.s
+.PHONY : p44.cpp.s
+
+p48.o: p48.cpp.o
+
+.PHONY : p48.o
+
+# target to build an object file
+p48.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p48.dir/build.make CMakeFiles/p48.dir/p48.cpp.o
+.PHONY : p48.cpp.o
+
+p48.i: p48.cpp.i
+
+.PHONY : p48.i
+
+# target to preprocess a source file
+p48.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p48.dir/build.make CMakeFiles/p48.dir/p48.cpp.i
+.PHONY : p48.cpp.i
+
+p48.s: p48.cpp.s
+
+.PHONY : p48.s
+
+# target to generate assembly for a file
+p48.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p48.dir/build.make CMakeFiles/p48.dir/p48.cpp.s
+.PHONY : p48.cpp.s
+
+p53.o: p53.cpp.o
+
+.PHONY : p53.o
+
+# target to build an object file
+p53.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/p53.cpp.o
+.PHONY : p53.cpp.o
+
+p53.i: p53.cpp.i
+
+.PHONY : p53.i
+
+# target to preprocess a source file
+p53.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/p53.cpp.i
+.PHONY : p53.cpp.i
+
+p53.s: p53.cpp.s
+
+.PHONY : p53.s
+
+# target to generate assembly for a file
+p53.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p53.dir/build.make CMakeFiles/p53.dir/p53.cpp.s
+.PHONY : p53.cpp.s
+
+p56.o: p56.cpp.o
+
+.PHONY : p56.o
+
+# target to build an object file
+p56.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/p56.cpp.o
+.PHONY : p56.cpp.o
+
+p56.i: p56.cpp.i
+
+.PHONY : p56.i
+
+# target to preprocess a source file
+p56.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/p56.cpp.i
+.PHONY : p56.cpp.i
+
+p56.s: p56.cpp.s
+
+.PHONY : p56.s
+
+# target to generate assembly for a file
+p56.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p56.dir/build.make CMakeFiles/p56.dir/p56.cpp.s
+.PHONY : p56.cpp.s
+
 p7.o: p7.cpp.o
 
 .PHONY : p7.o
@@ -504,6 +796,13 @@ help:
 	@echo "... p28"
 	@echo "... p32"
 	@echo "... p34"
+	@echo "... p38"
+	@echo "... p40"
+	@echo "... p42"
+	@echo "... p44"
+	@echo "... p48"
+	@echo "... p53"
+	@echo "... p56"
 	@echo "... p7"
 	@echo "... SDL_bgi.o"
 	@echo "... SDL_bgi.i"
@@ -529,6 +828,27 @@ help:
 	@echo "... p34.o"
 	@echo "... p34.i"
 	@echo "... p34.s"
+	@echo "... p38.o"
+	@echo "... p38.i"
+	@echo "... p38.s"
+	@echo "... p40.o"
+	@echo "... p40.i"
+	@echo "... p40.s"
+	@echo "... p42.o"
+	@echo "... p42.i"
+	@echo "... p42.s"
+	@echo "... p44.o"
+	@echo "... p44.i"
+	@echo "... p44.s"
+	@echo "... p48.o"
+	@echo "... p48.i"
+	@echo "... p48.s"
+	@echo "... p53.o"
+	@echo "... p53.i"
+	@echo "... p53.s"
+	@echo "... p56.o"
+	@echo "... p56.i"
+	@echo "... p56.s"
 	@echo "... p7.o"
 	@echo "... p7.i"
 	@echo "... p7.s"

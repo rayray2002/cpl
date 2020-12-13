@@ -1,5 +1,5 @@
 #include "SDL2/SDL.h"
-#include "SDL2/SDL_image.h"
+#include <SDL_image.h>
 #include <iostream>
 
 int main(int argc, char *argv[])
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
         return 3;
     }
 
-    surface = IMG_Load("../img/sample.png");
+    surface = IMG_Load("../img/cover.png");
     if (!surface) {
         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create surface from image: %s", SDL_GetError());
         return 3;
