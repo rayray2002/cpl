@@ -30,12 +30,12 @@ private:
 	int a, b, c;
 	point center;
 public:
-	elipso(const point &o, int a0, int b0);
+	elipso(const point &o, double a0, double b0);
 
 	~elipso();
 };
 
-elipso::elipso(const point &o, int a0, int b0)
+elipso::elipso(const point &o, double a0, double b0)
 
 		: center(o), a(a0), b(b0), c(sqrt(abs(a * a - b * b))) {
 	cout << "constructor for elipso" << endl;
