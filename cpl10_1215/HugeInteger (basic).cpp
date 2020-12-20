@@ -72,7 +72,6 @@ void HugeInteger::resize() {
 		data[i] = temp[i + _length - max_length];
 	delete[] temp;
 	_length = max_length;
-	return;
 }
 
 void HugeInteger::input(string &s) {
@@ -98,7 +97,6 @@ void HugeInteger::input(string &s) {
 //	for (int i = 0; i < _length; i++) {
 //		cout << i << ' ' << data[i] << endl;
 //	}
-	return;
 }
 
 void HugeInteger::print() {
@@ -126,27 +124,32 @@ void HugeInteger::print() {
 		}
 	}
 	if (is_zero) cout << 0;
-	// hint: you will need setw(), setfill('0'), and controll cout carefully.
-	return;
 }
 
 bool HugeInteger::isGreaterThan(HugeInteger &n) {
 	this->resize();
 	n.resize();
 	// TODO 5
-	bool flag = false;
 	if (_sign && !n._sign) return false;
 	if (!_sign && n._sign) return true;
 	if (!_sign && !n._sign) {
 		for (int i = 0; i < _length; i++) {
-			if (data[i] > n.data[i]) flag = true;
+			if (data[i] > n.data[i]) {
+				return true;
+			} else if (data[i] < n.data[i]) {
+				return false;
+			}
 		}
 	} else {
 		for (int i = 0; i < _length; i++) {
-			if (data[i] < n.data[i]) flag = true;
+			if (data[i] < n.data[i]) {
+				return true;
+			} else if (data[i] > n.data[i]) {
+				return false;
+			}
 		}
 	}
-	return flag;
+	return false;
 }
 //TEMPLATE END
 

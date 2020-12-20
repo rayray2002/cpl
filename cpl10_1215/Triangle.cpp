@@ -37,7 +37,7 @@ int main() {
 	Point p2(x[1], y[1]);
 	Point p3(x[2], y[2]);
 	Triangle t1 = Triangle(p1, p2, p3);
-	Triangle t2 = t1; //copy constructer
+	Triangle t2 = t1; //copy constructor
 	t1.enlarge(3);
 	cout << "t1: ";
 	t1.print();
@@ -84,7 +84,7 @@ Triangle::~Triangle() {}
 
 void Triangle::enlarge(int r) {
 	for (int i = 0; i < 3; i++) {
-		int nx = 0, ny = 0;
+		int nx, ny;
 		nx = V[i].getX() * r;
 		ny = V[i].getY() * r;
 		Point new_point(nx, ny);
