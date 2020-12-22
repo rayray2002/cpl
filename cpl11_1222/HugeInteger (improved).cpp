@@ -67,11 +67,9 @@ private:
 	void resize();
 };
 
-// TODO 7
 int64_t HugeInteger::_maxl = 1;
 
 HugeInteger::HugeInteger(const HugeInteger &n) {
-	// TODO 8
 	_length = n._length;
 	_data = new uint64_t[_length];
 	for (int i = 0; i < _length; ++i)
